@@ -69,9 +69,9 @@ func getWindowsKubeProxyOptions() map[string]string {
 	// use kernelspace proxy mode
 	kubeProxyOptions["proxy-mode"] = "kernelspace"
 	// enable Windows Overlay support
-	kubeProxyOptions["feature-gates"] = "WinOverlay=true"
+	kubeProxyOptions["feature-gates"] = "WinOverlay=true,WinDSR=true"
 	// disable Windows DSR support explicitly
-	kubeProxyOptions["enable-dsr"] = "false"
+	kubeProxyOptions["enable-dsr"] = "true"
 
 	return kubeProxyOptions
 }
