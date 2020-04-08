@@ -4350,8 +4350,8 @@
     "volume-plugin-dir": "[PREFIX_PATH]/var/lib/kubelet/volumeplugins"
    },
    "kubeproxy": {
-    "enable-dsr": "false",
-    "feature-gates": "WinOverlay=true",
+    "enable-dsr": "true",
+    "feature-gates": "WinOverlay=true,WinDSR=true",
     "healthz-bind-address": "127.0.0.1",
     "proxy-mode": "kernelspace",
     "v": "2"
@@ -4387,8 +4387,8 @@
     "volume-plugin-dir": "[PREFIX_PATH]/var/lib/kubelet/volumeplugins"
    },
    "kubeproxy": {
-    "enable-dsr": "false",
-    "feature-gates": "WinOverlay=true",
+    "enable-dsr": "true",
+    "feature-gates": "WinOverlay=true,WinDSR=true",
     "healthz-bind-address": "127.0.0.1",
     "proxy-mode": "kernelspace",
     "v": "2"
@@ -4424,8 +4424,8 @@
     "volume-plugin-dir": "[PREFIX_PATH]/var/lib/kubelet/volumeplugins"
    },
    "kubeproxy": {
-    "enable-dsr": "false",
-    "feature-gates": "WinOverlay=true",
+    "enable-dsr": "true",
+    "feature-gates": "WinOverlay=true,WinDSR=true",
     "healthz-bind-address": "127.0.0.1",
     "proxy-mode": "kernelspace",
     "v": "2"
